@@ -58,6 +58,8 @@ while True:
     if ans == 'N':
         break
         print(team_list)
+    else:
+        continue
 team_list = list(set(team_list))
 matrix = np.zeros((len(team_list), 5))
 
