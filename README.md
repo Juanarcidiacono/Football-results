@@ -1,6 +1,4 @@
-ally the results of a small football competition.
-
-Based on an input file containing which team played against which and what the outcome was, create a file with a table like this:
+Based on the results of the games, create a table like this:
 
 Team                           | MP |  W |  D |  L |  P
 Devastating Donkeys            |  3 |  2 |  1 |  0 |  7
