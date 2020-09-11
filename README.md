@@ -1,17 +1,9 @@
 
-
-| Comando | Descripción |
-| --- | --- |
-| git status | Enumera todos los archivos nuevos o modificados |
-| git diff | Muestra las diferencias de archivo que no han sido preparadas |
-
-
 Based on the results of the games, create a table like this:
 
 |Team || MP |  W |  D |  L |  P |
 |-----|-----|----|----|----|----|---|
 |Devastating Donkeys||  3 |  2 |  1 |  0 |  7|
-|-----|-----|----|----|----|----|---|
 |Allegoric Alaskans||  3 |  2 |  0 |  1 |  6|
 |-----|-----|----|----|----|----|---|
 |Blithering Badgers||  3 |  1 |  0 |  2 |  3|
