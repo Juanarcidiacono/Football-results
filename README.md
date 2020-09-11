@@ -36,6 +36,8 @@ Your tallying program will receive input that looks like:
 **Allegoric Alaskans;Courageous Californians;win**
 
 
+
+
 The result of the match refers to the first team listed. So this line
 
 Allegoric Alaskans;Blithering Badgers;win
