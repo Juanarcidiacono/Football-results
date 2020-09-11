@@ -1,3 +1,11 @@
+
+
+| Comando | Descripción |
+| --- | --- |
+| git status | Enumera todos los archivos nuevos o modificados |
+| git diff | Muestra las diferencias de archivo que no han sido preparadas |
+
+
 Based on the results of the games, create a table like this:
 
 |Team || MP |  W |  D |  L |  P|
