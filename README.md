@@ -9,7 +9,7 @@
 Based on the results of the games, create a table like this:
 
 |Team || MP |  W |  D |  L |  P |
-|-----|-----|----|----|----|-------|
+|-----|-----|----|----|----|----|---|
 |Devastating Donkeys|                 |  3 |  2 |  1 |  0 |  7|
 
 |Allegoric Alaskans|                 |  3 |  2 |  0 |  1 |  6|
