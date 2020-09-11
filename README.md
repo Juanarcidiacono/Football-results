@@ -25,7 +25,7 @@ Input
 Your tallying program will receive input that looks like:
 
 
-***Devastating Donkeys;Courageous Californians;draw**
+* **Devastating Donkeys;Courageous Californians;draw**
 
 **Devastating Donkeys;Allegoric Alaskans;win**
 
