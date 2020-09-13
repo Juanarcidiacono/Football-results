@@ -6,15 +6,16 @@ class Score:
 
     def split_team(self):
         conditions = ('win', 'loss', 'draw')
+        print('ok2')
         while True:
-            match = input()
+            match = input('Enter the condition (i.e Celtics;Bulls;draw)>> ')        
             team1 = match.split(';')[0]
             team2 = match.split(';')[1]
             con = match.split(';')[2]
             condition = True
             while condition:
                 if not (con in conditions):
-                    con = input('Enter again the condition ')
+                    con = input('The condition you entered is incorrect. Please enter again the condition>> ')
                 else:
                     condition = False
             ind_team1 = self.team_list.index(team1)
@@ -48,21 +49,21 @@ class Score:
                 print(str(int(self.matrix[i][j+1])) + '  | ', end = "")
             print()
 
-
+            
 team_list = []
 
 while True:
-    team_name = input('Enter the team')
+    team_name = input('Enter the team name>> ')
     team_list.append(team_name)
     ans = input('>> Continue? ')
     if ans == 'N':
-        break
         print(team_list)
+        break
     else:
         continue
+
 team_list = list(set(team_list))
 matrix = np.zeros((len(team_list), 5))
-
 puntaje = Score(team_list,matrix)
 puntaje.split_team()
 puntaje.board()
